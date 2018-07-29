@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<!--
+	Visualize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>PSA Website Redesign</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/themes/odometer-theme-train-station.css" />
+	</head>
+	<body>
+		<!-- Navigation -->
+		<div class="navBar">
+			<ul class="navBar" id="menu">
+				<li><a class="a" href="#contact">Contact</a></li>
+				<li><a class="a" href="#about">About</a></li>
+				<li><a class="a" href="#rationale">Rationale</a></li>
+				<li><a class="a active" href="#home">Home</a></li>
+			</ul>
+		</div>
+
+		
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<div id="home">
+					<header id="header">
+						<span class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Philippine_Statistics_Authority.svg/1200px-Philippine_Statistics_Authority.svg.png" alt="" /></span>
+						<h1>This is <strong>PSA Stats</strong>, a web page designed and developed by <a href="#about"><u>Joshua Pabalan</u></a>, for a project given to him by <strong>Elevation Partners</strong>.</h1>
+						
+					</header>
+				</div>
+				<!-- Main -->
+					<section id="main">
+						
+							<div class="main-header">
+									Quickstats
+							</div>
+
+						<!-- Quickstats -->
+							<section class="quickstats">
+								
+								<div> 
+									<a>
+										<div id="odometer1" class="odometer">0</div>
+										<h3>The Philippine employment rate in 2018<br><br></h3>
+									</a>
+									<a>
+										<div id="odometer4" class="odometer">0</div>
+										<h3>Our yearly population growth rate is a little lower than last year's 1.55%</h3>
+									</a>
+									<a>
+										<div id="odometer7" class="odometer">0</div>
+										<h3>Which leads to this this percentage of our children having stunted growth</h3>
+									</a>
+									
+								</div>
+								<div>
+
+									<a>
+										<div id="odometer2" class="odometer">0</div>
+										<h3>Our country has this many people in 2018<br><br></h3>
+									</a>
+
+									<a>
+										<div id="odometer5" class="odometer">0</div>
+										<h3>And although our poverty rate is down from 25.2 in 2012<br></h3>
+									</a>
+									
+									<a>
+										<div id="odometer8" class="odometer">0</div>
+										<h3>Percentage of our population living in the NCR</h3>
+									</a>
+									
+								</div>
+								<div>
+									<a>
+										<div id="odometer3" class="odometer">0</div>
+										<h3>Our GDP (in USD Billions) this year,<br>which is 6.80% up from 304.90 last year<br></h3>
+									</a>
+									
+									<a>
+										<div id="odometer6" class="odometer">0</div>
+										<h3>The average household income (monthly) in 2015 was this low</h3>
+									</a>
+									<a>
+										<div id="odometer9" class="odometer">0</div>
+										<h3>That's around this number of people!<br></h3>
+									</a>
+									
+								</div>
+							</section>
+						
+
+						<section class="row">
+							<div class="buttons column-3">
+								<a href="http://openstat.psa.gov.ph/">
+									Databases
+								</a>
+							</div>
+							<div class="buttons column-3">
+								<a href="https://psa.gov.ph/products-and-services/publications">
+									Publications
+								</a>
+							</div>
+							<div class="buttons column-3">
+								<a href=https://psa.gov.ph/content/annual-reports-0"">
+									Annual Reports
+								</a>
+							</div>
+						</section>
+
+					</section>
+
+					
+
+
+				
+
+				<!-- Footer -->
+					<footer id="footer">
+							<section class="rationale" id="rationale">
+						<div class="main-header">
+									Rationale
+						</div>
+
+						<div class="row">
+							<div class="column-2">
+								<h3>I've always believed that most government data should be transparent and open to all. In the case of PSA, 
+									they do have quite a lot of databases and resources available to the general public, it's just that not everyone
+									is techy enough to navigate their current website, which is full of articles andd unresponsive links. I wanted to give
+									their site a modern feel, and put live stats on the landing page. I was more successful doing the former.
+								</h3>
+							</div>
+							<div class="column-2">
+								<h3>This redesign isn't meant to replace the current PSA website, but rather take a few of it's features away from
+									the main site. Namely, its downloadables -- databases, their publications, and annual reports. I believe that if
+									implemented, many more people that are curious about Philippine statistics and data will have an easier time looking for
+									these records, and will save them a lot of time and effort.
+								</h3>
+							</div>
+						</div>
+					</section>
+					
+							<div class="social" id="contact">
+									<ul class="icons">
+											<li><a href="https://www.linkedin.com/in/joshuapabalan/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											<li><a href="https://web.facebook.com/joshua.pabalan" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="mailto:joshpabalan@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+										</ul>
+							</div>
+					</footer>
+
+			</div>
+
+			<script>
+					
+					var header = document.getElementById("menu");
+					var a = header.getElementsByClassName("a");
+					for (var i = 0; i < a.length; i++) {
+					  a[i].addEventListener("click", function() {
+						var current = document.getElementsByClassName("active");
+						current[0].className = current[0].className.replace(" active", "");
+						this.className += " active";
+					  });
+					}
+			</script>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/odometer.js"></script>
+
+	</body>
+</html>
